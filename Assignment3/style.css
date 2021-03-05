@@ -1,0 +1,33 @@
+article{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./bg.jpg);
+    background-size: 100%;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+div{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    padding: 10px 20px;
+    background-color: transparent;
+    font-weight: 900;
+    font-size: 30px;
+    border: 3px solid black;
+}
+
+button:hover{
+    border-color: yellowgreen;
+    transform: translateY(-10px);
+    box-shadow: yellowgreen 0px 2px 3px 3px;
+    text-transform: uppercase;
+}
